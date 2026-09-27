@@ -33,7 +33,7 @@ async function humanize() {
   loadingEl.style.display = 'flex';
 
   try {
-    const res = await fetch(base + '/api/humanize', {
+    const res = await fetch(base + '/api/humanize/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text, tone })

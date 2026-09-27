@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    if (url.pathname.endsWith('/api/humanize') && request.method === 'POST') {
+    if ((url.pathname.endsWith('/api/humanize') || url.pathname.endsWith('/api/humanize/')) && request.method === 'POST') {
       // 限流：以 IP 为键，每 60 秒最多 30 次
       const ip = request.headers.get('cf-connecting-ip') || 'unknown';
       const { success } = await env.AI_RATE_LIMITER.limit({ key: 'humanize:' + ip });
