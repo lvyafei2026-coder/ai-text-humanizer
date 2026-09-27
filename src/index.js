@@ -43,7 +43,7 @@ async function handleHumanize(request, env) {
     const systemPrompt = 'You are a professional text editor. You only return the rewritten text, with no explanations, no quotes, and no preamble.';
     const userPrompt = TONE_PROMPTS[tone] + '\n\nText:\n' + input;
 
-    const response = await env.AI.run('@cf/meta/llama-3.1-8b-instruct', {
+    const response = await env.AI.run('@cf/meta/llama-3.2-3b-instruct', {
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt }
