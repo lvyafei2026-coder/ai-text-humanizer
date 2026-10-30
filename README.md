@@ -34,10 +34,14 @@ npx wrangler dev
 
 ## Routes
 
-Add these to the `tool-proxy` Worker's proxy map and Cloudflare routes:
+Served on its own subdomain, routed by `tool-proxy` (service binding `SITE_HUMANIZE`,
+service name `ai-text-humanizer`):
 
-- `toolara.dev/ai-text-humanizer/*`
-- `www.toolara.dev/ai-text-humanizer/*`
+- `humanize.toolara.dev/*` — primary
+
+Legacy paths (`toolara.dev/ai-text-humanizer/*`, `www.toolara.dev/ai-text-humanizer/*`)
+still 301 to the subdomain; they are kept only until Google drops them from the index,
+see `LEGACY_PATH_MAP` in `tool-proxy/src/sites.js`.
 
 ## Free tier
 
