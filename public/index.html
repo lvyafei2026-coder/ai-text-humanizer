@@ -41,7 +41,7 @@
 }
 </script>
 
-<link rel="stylesheet" href="/css/style.css?v=20261104a">
+<link rel="stylesheet" href="/css/style.css?v=20261105a">
 <style id="footer-groups-css">
 .site-footer-grid{grid-template-columns:minmax(0,0.85fr) minmax(0,2.65fr)!important;gap:40px!important}
 .site-footer-column:nth-child(2){grid-row:1/span 2!important}
@@ -81,7 +81,7 @@
 <header class="hero">
 
   <div class="hero-inner">
-    <div class="hero-badge">✨ AI-powered</div>
+    <div class="hero-badge" data-i18n="heroBadge">✨ Free & unlimited · No sign-up</div>
     <h1 data-i18n="title">AI Text Humanizer</h1>
     <p data-i18n="subtitle">Paste AI-generated text. Get a version that sounds like a real person wrote it.</p>
   </div>
@@ -138,34 +138,32 @@
   <section>
     <h2 data-i18n="whatIsTitle">What does this tool do?</h2>
     <p data-i18n="whatIsText">AI-generated text often has recognizable patterns: uniform sentence length, overused phrases like "delve" or "tapestry", and a vague, overly formal tone. This tool uses a large language model to rewrite your text so it sounds like a human wrote it — while keeping the same meaning.</p>
+
+  <div class="what-grid">
+    <div class="what-card"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg><div class="wc-t" data-i18n="f1t">Keeps your meaning</div><p class="wc-d" data-i18n="f1d">Rewrites style, not substance — facts, names, and numbers stay exactly as you wrote them.</p></div>
+    <div class="what-card"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg><div class="wc-t" data-i18n="f2t">A tone for every scene</div><p class="wc-d" data-i18n="f2d">Natural for articles, casual for social posts, professional for reports and applications.</p></div>
+    <div class="what-card"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><div class="wc-t" data-i18n="f3t">Private by design</div><p class="wc-d" data-i18n="f3d">Your text is processed in memory and discarded — never stored or used for training.</p></div>  </div>
   </section>
 
   <section>
     <h2 data-i18n="tipsTitle">Tips for better results</h2>
-    <ul>
-      <li data-i18n="tip1"><strong>Paste a focused passage.</strong> 200–800 words works best. Very long inputs get truncated at 3,000 characters.</li>
-      <li data-i18n="tip2"><strong>Choose the right tone.</strong> "Natural" works for blog posts and articles. "Casual" suits emails and social. "Professional" fits reports and applications.</li>
-      <li data-i18n="tip3"><strong>Edit the output.</strong> The tool improves flow, but you know your audience better than any model does.</li>
-      <li data-i18n="tip4"><strong>Don't submit unedited.</strong> For academic or professional submissions, always treat the output as a draft.</li>
-    </ul>
+    <div class="tip-grid">
+    <div class="tip-card" data-i18n="tip1">Paste a focused passage. 200–800 words works best. Very long inputs get truncated at 3,000 characters.</div>
+    <div class="tip-card" data-i18n="tip2">Choose the right tone. "Natural" works for blog posts and articles. "Casual" suits emails and social. "Professional" fits reports and applications.</div>
+    <div class="tip-card" data-i18n="tip3">Edit the output. The tool improves flow, but you know your audience better than any model does.</div>
+    <div class="tip-card" data-i18n="tip4">Don't submit unedited. For academic or professional submissions, always treat the output as a draft.</div>
+  </div>
   </section>
 
   <section>
     <h2 data-i18n="faqTitle">Frequently asked questions</h2>
-    <h3 data-i18n="faq1q">Is this tool free?</h3>
-    <p data-i18n="faq1a">Yes. The tool runs on Cloudflare Workers AI, which offers a generous free daily quota. For normal personal use, you won't hit any limits.</p>
-
-    <h3 data-i18n="faq2q">Is my text stored?</h3>
-    <p data-i18n="faq2a">No. Your text is sent to the AI model for processing and is not stored on our servers or used for training. Once the response is returned to your browser, nothing is retained on the backend.</p>
-
-    <h3 data-i18n="faq3q">Can I use this for academic work?</h3>
-    <p data-i18n="faq3a">This tool is intended for editing and clarity, not for academic dishonesty. Many universities now require disclosure when AI tools are used for coursework. Always follow your institution's policy.</p>
-
-    <h3 data-i18n="faq4q">Why does the output sometimes sound different from my original?</h3>
-    <p data-i18n="faq4a">The model rewrites sentence structure and word choice to sound more human, which naturally changes the phrasing. If the result drifts too far from your meaning, try a shorter passage or a different tone setting.</p>
-
-    <h3 data-i18n="faq5q">What model do you use?</h3>
-    <p data-i18n="faq5a">We use Meta's Llama 3.1 8B model, running on Cloudflare's global edge network. It's a fast, capable model for rewriting tasks and keeps response times low.</p>
+    <div class="faq-list">
+  <details class="faq-item"><summary data-i18n="faq1q">Is this tool free?</summary><div class="faq-a"><p data-i18n="faq1a">Yes. The tool runs on Cloudflare Workers AI, which offers a generous free daily quota. For normal personal use, you won't hit any limits.</p></div></details>
+  <details class="faq-item"><summary data-i18n="faq2q">Is my text stored?</summary><div class="faq-a"><p data-i18n="faq2a">No. Your text is sent to the AI model for processing and is not stored on our servers or used for training. Once the response is returned to your browser, nothing is retained on the backend.</p></div></details>
+  <details class="faq-item"><summary data-i18n="faq3q">Can I use this for academic work?</summary><div class="faq-a"><p data-i18n="faq3a">This tool is intended for editing and clarity, not for academic dishonesty. Many universities now require disclosure when AI tools are used for coursework. Always follow your institution's policy.</p></div></details>
+  <details class="faq-item"><summary data-i18n="faq4q">Why does the output sometimes sound different from my original?</summary><div class="faq-a"><p data-i18n="faq4a">The model rewrites sentence structure and word choice to sound more human, which naturally changes the phrasing. If the result drifts too far from your meaning, try a shorter passage or a different tone setting.</p></div></details>
+  <details class="faq-item"><summary data-i18n="faq5q">What model do you use?</summary><div class="faq-a"><p data-i18n="faq5a">We use Meta's Llama 3.1 8B model, running on Cloudflare's global edge network. It's a fast, capable model for rewriting tasks and keeps response times low.</p></div></details>
+  </div>
 
     <div class="disclaimer" data-i18n="disclaimer"><strong>Disclaimer:</strong> This tool is for editing and clarity improvement. Do not use it to misrepresent authorship in academic, legal, or professional contexts where disclosure is required.</div>
   </section>

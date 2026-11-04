@@ -37,5 +37,12 @@
   "errShort": "Please paste at least 20 characters.",
   "errGeneric": "Something went wrong. Please try again.",
   "errNetwork": "Network error. Please try again.",
-  "errRateLimit": "Too many requests. Please wait a minute and try again."
+  "errRateLimit": "Too many requests. Please wait a minute and try again.",
+  "heroBadge": "✨ Free & unlimited · No sign-up",
+  "f1t": "Keeps your meaning",
+  "f1d": "Rewrites style, not substance — facts, names, and numbers stay exactly as you wrote them.",
+  "f2t": "A tone for every scene",
+  "f2d": "Natural for articles, casual for social posts, professional for reports and applications.",
+  "f3t": "Private by design",
+  "f3d": "Your text is processed in memory and discarded — never stored or used for training."
 }
