@@ -1,5 +1,16 @@
 {
   "title": "Toolara Humanize",
+  "heroTitle": "Make AI writing sound human",
+  "heroCta": "Try it now, free",
+  "heroPoint1": "Rewrites in a natural human voice",
+  "heroPoint2": "Keeps your meaning and facts intact",
+  "heroPoint3": "No sign-up, no character limit",
+  "heroPreviewLabel": "Example",
+  "heroInputLabel": "INPUT",
+  "heroInputText": "In today’s fast-paced world, we must leverage…",
+  "heroPreviewBody": "Honestly? I put this off for three weeks.\nTurns out the whole thing took twenty minutes\nonce I stopped overthinking it.\n\nThe lesson: start before you feel ready.",
+  "heroPreviewTag1": "Human tone",
+  "heroPreviewTag2": "Casual",
   "subtitle": "Paste AI-generated text. Get a version that sounds like a real person wrote it.",
   "calcHeading": "Text humanizer",
   "toneLabel": "Tone",
@@ -38,11 +49,12 @@
   "errGeneric": "Something went wrong. Please try again.",
   "errNetwork": "Network error. Please try again.",
   "errRateLimit": "Too many requests. Please wait a minute and try again.",
-  "heroBadge": "✨ Free & unlimited · No sign-up",
+  "heroBadge": "Free & unlimited · No sign-up",
   "f1t": "Keeps your meaning",
   "f1d": "Rewrites style, not substance — facts, names, and numbers stay exactly as you wrote them.",
   "f2t": "A tone for every scene",
   "f2d": "Natural for articles, casual for social posts, professional for reports and applications.",
   "f3t": "Private by design",
-  "f3d": "Your text is processed in memory and discarded — never stored or used for training."
+  "f3d": "Your text is processed in memory and discarded — never stored or used for training.",
+  "ph1": "Paste the text you want to rewrite here..."
 }

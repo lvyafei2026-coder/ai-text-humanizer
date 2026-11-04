@@ -1,5 +1,16 @@
 {
   "title": "Toolara Humanize",
+  "heroTitle": "让 AI 文字读起来像人写的",
+  "heroCta": "免费试用",
+  "heroPoint1": "改写成自然的人类语气",
+  "heroPoint2": "保留原意与事实",
+  "heroPoint3": "无需注册，不限字数",
+  "heroPreviewLabel": "示例",
+  "heroInputLabel": "输入",
+  "heroInputText": "在当今快节奏的时代，我们必须借助…",
+  "heroPreviewBody": "说实话，这事我拖了三个星期。\n结果真正动手才发现，二十分钟就搞定了。\n\n结论：别等准备好了再开始。",
+  "heroPreviewTag1": "人类语气",
+  "heroPreviewTag2": "口语",
   "subtitle": "粘贴 AI 生成的文本，得到一段像真人写的版本。",
   "calcHeading": "文本改写",
   "toneLabel": "语气",
@@ -38,11 +49,12 @@
   "errGeneric": "出错了，请重试。",
   "errNetwork": "网络错误，请重试。",
   "errRateLimit": "请求过于频繁，请稍等一分钟后再试。",
-  "heroBadge": "✨ 免费无限制 · 无需注册",
+  "heroBadge": "免费 · 不限次数 · 无需注册",
   "f1t": "保留原意",
   "f1d": "只改写表达方式，事实、人名和数字与你写的完全一致。",
   "f2t": "场景化语气",
   "f2d": "Natural 适合文章，Casual 适合社交动态，Professional 适合报告与申请。",
   "f3t": "隐私优先",
-  "f3d": "文本即用即弃，不存储、不用于任何模型训练。"
+  "f3d": "文本即用即弃，不存储、不用于任何模型训练。",
+  "ph1": "把要改写的文字粘贴到这里…"
 }
