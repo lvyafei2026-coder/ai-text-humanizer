@@ -9,7 +9,8 @@ binding = "AI"
 directory = "./public"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
-run_worker_first = ["/api/*"]
+html_handling = "none"
+run_worker_first = ["/*"]
 
 # Rate Limiting：每 60 秒最多 30 次请求
 [[ratelimits]]
